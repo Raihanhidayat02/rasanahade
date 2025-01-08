@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rasana Hade</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <style>
+      /* Custom CSS untuk warna merah */
+      .bg-red-theme {
+        background-color: #b22222;
+      }
+      .text-red-theme {
+        color: #b22222;
+      }
+      /* Efek hover untuk promo card */
+      .promo-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .promo-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+      /* Efek hover untuk tombol */
+      .btn-hover {
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      .btn-hover:hover {
+        background-color: #ffd700; /* Warna emas saat hover */
+        transform: scale(1.05);
+      }
+      /* Custom CSS untuk warna merah */
+      .bg-red-theme {
+        background-color: #b22222;
+      }
+      .text-red-theme {
+        color: #b22222;
+      }
+      .border-red-theme {
+        border-color: #b22222;
+      }
+      /* Efek hover untuk navbar */
+      .nav-link {
+        position: relative;
+        padding: 0.5rem 1rem;
+        transition: color 0.3s ease, transform 0.3s ease;
+      }
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: white;
+        transition: width 0.3s ease;
+      }
+      .nav-link:hover {
+        color: #ffd700; /* Warna emas saat hover */
+        transform: translateY(-3px);
+      }
+      .nav-link:hover::after {
+        width: 100%;
+      }
+      /* Efek hover untuk logo */
+      .logo-hover {
+        transition: transform 0.3s ease;
+      }
+      .logo-hover:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-red-theme p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo Rasana Hade -->
+        <div class="flex items-center space-x-4 logo-hover">
+          <!-- Ikon Makanan -->
+          <div class="bg-red-theme p-3 rounded-full">
+            <i class="fas fa-utensils text-white text-2xl"></i>
+          </div>
+          <!-- Teks Logo -->
+          <div>
+            <h1 class="text-2xl font-bold text-white">Rasana Hade</h1>
+            <p class="text-sm text-gray-200">Rumah Makan Padang</p>
+          </div>
+        </div>
+        <!-- Menu Navigasi -->
+        <ul class="flex space-x-4">
+          <li><a href="#beranda" class="text-white nav-link">Beranda</a></li>
+          <li><a href="#menu" class="text-white nav-link">Menu</a></li>
+          <li><a href="#promo" class="text-white nav-link">Promo</a></li>
+          <li><a href="#pesan" class="text-white nav-link">Pesan</a></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+  <!-- Promo Section -->
+  <section id="promo" class="container mx-auto py-12">
+    <h2 class="text-3xl font-bold text-center mb-8 text-red-theme">Promo Spesial</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Promo 1: Tahun Baru -->
+      <div class="bg-white p-6 rounded-lg shadow-lg promo-card">
+        <div class="text-center">
+          <h3 class="text-2xl font-bold text-red-theme mb-4">Tahun Baru, Diskon Besar!</h3>
+          <p class="text-gray-600 mb-4">Rayakan tahun baru dengan diskon hingga 30% untuk semua menu.</p>
+          <button class="bg-red-theme text-white px-6 py-2 rounded-lg btn-hover">Lihat Detail</button>
+        </div>
+      </div>
+
+      <!-- Promo 2: Paket Keluarga -->
+      <div class="bg-white p-6 rounded-lg shadow-lg promo-card">
+        <div class="text-center">
+          <h3 class="text-2xl font-bold text-red-theme mb-4">Paket Keluarga Hemat</h3>
+          <p class="text-gray-600 mb-4">Nikmati paket keluarga dengan harga spesial, cocok untuk acara kumpul-kumpul.</p>
+          <button class="bg-red-theme text-white px-6 py-2 rounded-lg btn-hover">Lihat Detail</button>
+        </div>
+      </div>
+
+      <!-- Promo 3: Cashback Mingguan -->
+      <div class="bg-white p-6 rounded-lg shadow-lg promo-card">
+        <div class="text-center">
+          <h3 class="text-2xl font-bold text-red-theme mb-4">Cashback Mingguan</h3>
+          <p class="text-gray-600 mb-4">Dapatkan cashback hingga 20% setiap minggu untuk</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-red-700 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Alamat Kami -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">Alamat Kami</h3>
+          <p class="text-gray-200">
+            Jl. Dago No. 123, Bandung<br />
+            Jawa Barat, Indonesia
+          </p>
+        </div>
+        <!-- Hubungi Kami -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">Hubungi Kami</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="mailto:rasanahade@gmail.com" class="text-gray-200 hover:text-red-500 hover:bg-red-800 py-2 px-4 rounded-lg transition duration-300 ease-in-out"> <i class="fas fa-envelope mr-2"></i>rasanahade@gmail.com </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/rasanahade" class="text-gray-200 hover:text-red-500 hover:bg-red-800 py-2 px-4 rounded-lg transition duration-300 ease-in-out"> <i class="fab fa-instagram mr-2"></i>@rasanahade </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/rasanahade" class="text-gray-200 hover:text-red-500 hover:bg-red-800 py-2 px-4 rounded-lg transition duration-300 ease-in-out"> <i class="fab fa-facebook mr-2"></i>Rasana Hade </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Jam Buka -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">Jam Buka</h3>
+          <p class="text-gray-200">
+            Senin - Minggu<br />
+            09:00 - 21:00 WIB
+          </p>
+        </div>
+      </div>
+      <!-- Hak Cipta -->
+      <div class="border-t border-gray-600 mt-8 pt-8 text-center">
+        <p class="text-gray-200 hover:text-red-500 hover:bg-red-800 py-2 px-4 rounded-lg transition duration-300 ease-in-out">&copy; 2023 Rasana Hade. Hak Cipta Dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+</html>
