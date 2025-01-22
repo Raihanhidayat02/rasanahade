@@ -14,7 +14,7 @@
         <a href="<?= base_url('/admin') ?>" class="bg-red-500 text-white p-2 rounded mb-4 inline-block">Tambah Menu Baru</a>
         <div class="flex flex-wrap -mx-4">
             <?php foreach ($menu_items as $item): ?>
-                <div class="bg-white p-6 rounded-lg shadow-lg mx-4 my-4 w-full md:w-1/3 lg:w-1/4">
+                <div class="bg-white p-6 rounded-lg shadow-lg mx-4 my-4 w-full md:w-1/4 lg:w-1/5">
                     <?php if (!empty($item['image'])): ?>
                         <img src="<?= base_url('uploads/' . $item['image']) ?>" alt="<?= $item['name'] ?>" class="w-full h-40 object-cover rounded mb-4">
                     <?php else: ?>

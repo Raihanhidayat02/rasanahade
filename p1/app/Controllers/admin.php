@@ -90,6 +90,6 @@ class Admin extends BaseController
     public function delete($id)
     {
         $this->menuModel->delete($id);
-        return redirect()->to('/admin');
+        return redirect()->to('/admin/create');
     }
 }
