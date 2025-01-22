@@ -7,7 +7,6 @@
         <div class="text-center">
             <h2 class="text-4xl font-extrabold text-red-700 mb-2">Rasana Hade</h2>
             <p class="text-xl text-gray-600">Rumah Makan Padang</p>
-            <img src="<?= base_url('images/rendang.png') ?>" alt="Rendang Icon" class="mx-auto h-24 w-24 mt-4">
         </div>
     </div>
 
@@ -19,7 +18,7 @@
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
                             <svg class="h-5 w-5 text-red-600" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
                             </svg>
                         </div>
                         <div class="ml-3">
@@ -31,7 +30,7 @@
 
             <!-- Login Form -->
             <form class="space-y-6" action="<?= base_url('login') ?>" ```php
-            <form class="space-y-6" action="<?= base_url('login') ?>" method="POST">
+                <form class="space-y-6" action="<?= base_url('login') ?>" method="POST">
                 <?= csrf_field() ?>
 
                 <div>
@@ -39,8 +38,8 @@
                         Alamat Email
                     </label>
                     <div class="mt-1">
-                        <input id="email" name="email" type="email" required 
-                               class="appearance-none block w-full px-3 py-2.5 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 sm:text-sm">
+                        <input id="email" name="email" type="email" required
+                            class="appearance-none block w-full px-3 py-2.5 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 sm:text-sm">
                     </div>
                 </div>
 
@@ -49,8 +48,8 @@
                         Password
                     </label>
                     <div class="mt-1">
-                        <input id="password" name="password" type="password" required 
-                               class="appearance-none block w-full px-3 py-2.5 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 sm:text-sm">
+                        <input id="password" name="password" type="password" required
+                            class="appearance-none block w-full px-3 py-2.5 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 sm:text-sm">
                     </div>
                 </div>
 
@@ -74,8 +73,8 @@
                 </div>
 
                 <div class="mt-6">
-                    <a href="<?= base_url('register') ?>" 
-                       class="w-full flex justify-center py-3 px-4 border border-red-300 rounded-lg shadow-sm text-sm font-medium text-red-600 bg-white hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition duration-200">
+                    <a href="<?= base_url('register') ?>"
+                        class="w-full flex justify-center py-3 px-4 border border-red-300 rounded-lg shadow-sm text-sm font-medium text-red-600 bg-white hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition duration-200">
                         Daftar Sekarang
                     </a>
                 </div>
