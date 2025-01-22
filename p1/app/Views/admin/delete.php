@@ -14,4 +14,3 @@ $conn->close();
 
 header("Location: /admin");
 exit();
-?>
