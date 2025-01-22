@@ -79,6 +79,7 @@
                 <li><a href="<?= base_url('menu') ?>" class="text-white nav-link">Menu</a></li>
                 <li><a href="<?= base_url('promo') ?>" class="text-white nav-link">Promo</a></li>
                 <li><a href="<?= base_url('order') ?>" class="text-white nav-link">Pesan</a></li>
+                <li><a href="<?= base_url('admin') ?>" class="text-white nav-link">Admin</a></li>
             </ul>
         </div>
     </nav>
@@ -197,5 +198,6 @@
             </div>
         </div>
     </footer>
+</body>
 
 </html>

@@ -87,7 +87,7 @@
 <section id="menu" class="container mx-auto py-12">
     <h2 class="text-3xl font-bold text-center mb-8 text-red-theme">Menu Kami</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow-lg">
+        <!-- <div class="bg-white p-6 rounded-lg shadow-lg">
             <img src="assets/menu1.jpg" alt="Rendang" class="w-full h-48 object-cover rounded-lg mb-4" />
             <p class="text-gray-700 mb-2">Rendang - Rp 17.000</p>
         </div>
@@ -118,7 +118,14 @@
         <div class="bg-white p-6 rounded-lg shadow-lg">
             <img src="assets/menu1.jpg" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
             <p class="text-gray-700 mb-2">Sate Padang - Rp 20.000</p>
-        </div>
+        </div> -->
+        <?php foreach ($menuItems as $item): ?>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <img src="<?= base_url('uploads/' . $item['image']) ?>" alt="<?= esc($item['name']) ?>" class="w-full h-48 object-cover rounded-lg">
+                <h3 class="text-xl font-bold mt-4"><?= esc($item['name']) ?></h3>
+                <p class="text-gray-700">Rp <?= number_format($item['price'], 0, ',', '.') ?></p>
+            </div>
+        <?php endforeach; ?>
     </div>
 </section>
 
