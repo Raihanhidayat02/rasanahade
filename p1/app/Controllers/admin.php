@@ -53,13 +53,39 @@ class Admin extends BaseController
 
     public function update($id)
     {
+        // Ambil data menu lama berdasarkan ID
+        $menu = $this->menuModel->find($id);
+
+        // Ambil file gambar baru
+        $fileGambar = $this->request->getFile('image');
+
+        if ($fileGambar && $fileGambar->isValid() && !$fileGambar->hasMoved()) {
+            // Generate nama file baru
+            $namaGambarBaru = $fileGambar->getRandomName();
+
+            // Pindahkan file ke folder tujuan
+            $fileGambar->move('uploads/', $namaGambarBaru);
+
+            // Hapus gambar lama jika ada
+            if ($menu['image'] && file_exists('uploads/' . $menu['image'])) {
+                unlink('uploads/' . $menu['image']);
+            }
+        } else {
+            // Jika tidak ada gambar baru, gunakan gambar lama
+            $namaGambarBaru = $menu['image'];
+        }
+
+        // Update data ke database
         $this->menuModel->update($id, [
             'name' => $this->request->getVar('name'),
             'price' => $this->request->getVar('price'),
             'keterangan' => $this->request->getVar('keterangan'),
+            'image' => $namaGambarBaru,
         ]);
+
         return redirect()->to('/admin/create');
     }
+
 
     public function delete($id)
     {
