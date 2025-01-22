@@ -58,7 +58,7 @@ class Admin extends BaseController
             'price' => $this->request->getVar('price'),
             'keterangan' => $this->request->getVar('keterangan'),
         ]);
-        return redirect()->to('/admin');
+        return redirect()->to('/admin/create');
     }
 
     public function delete($id)
