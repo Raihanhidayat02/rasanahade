@@ -84,22 +84,44 @@
     </nav>
 
 </body>
-<!-- Menu Section -->
 <section id="menu" class="container mx-auto py-12">
     <h2 class="text-3xl font-bold text-center mb-8 text-red-theme">Menu Kami</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Menu Satuan -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="bg-white p-6 rounded-lg shadow-lg">
-            <h3 class="text-xl font-bold mb-4 text-red-theme">Menu Satuan</h3>
             <img src="assets/menu1.jpg" alt="Rendang" class="w-full h-48 object-cover rounded-lg mb-4" />
             <p class="text-gray-700 mb-2">Rendang - Rp 17.000</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
             <img src="assets/menu2.jpg" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
             <p class="text-gray-700 mb-2">Sate Padang - Rp 20.000</p>
-            <img src="https://via.placeholder.com/300x200?text=Sate+Padang" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="assets/menu1.jpg" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
             <p class="text-gray-700 mb-2">Sate Padang - Rp 20.000</p>
-            <img src="https://via.placeholder.com/300x200?text=Sate+Padang" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="assets/menu1.jpg" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
             <p class="text-gray-700 mb-2">Sate Padang - Rp 20.000</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="assets/menu1.jpg" alt="Rendang" class="w-full h-48 object-cover rounded-lg mb-4" />
+            <p class="text-gray-700 mb-2">Rendang - Rp 17.000</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="assets/menu2.jpg" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
+            <p class="text-gray-700 mb-2">Sate Padang - Rp 20.000</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="assets/menu1.jpg" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
+            <p class="text-gray-700 mb-2">Sate Padang - Rp 20.000</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="assets/menu1.jpg" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg mb-4" />
+            <p class="text-gray-700 mb-2">Sate Padang - Rp 20.000</p>
+        </div>
+    </div>
 </section>
+
 <!-- Footer -->
 <footer class="bg-red-700 text-white py-12">
     <div class="container mx-auto px-4">
