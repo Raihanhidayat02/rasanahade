@@ -26,6 +26,9 @@
 
             <input type="submit" value="Create" class="bg-red-500 text-white p-2 rounded mt-4 w-full cursor-pointer hover:bg-red-600">
         </form>
+        <div class="flex justify-center mt-4">
+            <button onclick="window.location.href='<?= base_url('/dashboard') ?>'" class="bg-red-500 text-white p-2 rounded w-32 cursor-pointer hover:bg-red-600">Back</button>
+        </div>
     </div>
 </body>
 

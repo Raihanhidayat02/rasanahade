@@ -29,6 +29,7 @@
                 </div>
             <?php endforeach; ?>
         </div>
+        <button onclick="window.location.href='<?= base_url('/admin') ?>'" class="bg-red-500 text-white p-3 rounded mt-4 w-full cursor-pointer hover:bg-red-600 text-lg">Back</button>
     </div>
 </body>
 

@@ -87,7 +87,7 @@
     <!-- Beranda -->
     <section id="beranda" class="bg-cover bg-center h-96" style="background-image: url('/assets/image1.webp')">
         <div class="container mx-auto h-full flex items-center justify-center">
-            <div class="text-center bg-black bg-opacity-50 p-10 rounded-lg">
+            <div class="text-center bg-black bg-opacity-30 p-10 rounded-lg">
                 <h1 class="text-5xl font-bold text-white">Selamat Datang di Rasana Hade</h1>
                 <p class="text-xl text-white mt-4">Nikmati kelezatan masakan Padang asli di sini!</p>
             </div>
