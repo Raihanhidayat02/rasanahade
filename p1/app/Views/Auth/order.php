@@ -106,7 +106,7 @@
             <!-- Menu yang Dipesan -->
             <div class="mb-4">
                 <label for="menu" class="block text-gray-700 mb-2">Menu yang Dipesan</label>
-                <select id="menu" name="menu" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-theme" required>
+                <selsect id="menu" name="menu" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-theme" required>
                     <<<<<<< HEAD
                         <option value="" disabled selected>Pilih menu</option>
                         <option value="Rendang">Rendang - Rp 25.000</option>
