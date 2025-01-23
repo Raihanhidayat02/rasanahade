@@ -110,7 +110,7 @@
                     <option value="" disabled selected>Pilih menu</option>
                     <option value="Rendang">Rendang - Rp 25.000</option>
                     <option value="Sate Padang">Sate Padang - Rp 20.000</option>
-                    <option value="Gulai Ayam">Gulai Ayam - Rp 18</option>
+                    <option value="Gulai Ayam">Gulai Ayam - Rp 18.000</option>
                 </select>
             </div>
         </form>
