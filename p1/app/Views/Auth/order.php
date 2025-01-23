@@ -106,23 +106,16 @@
             <!-- Menu yang Dipesan -->
             <div class="mb-4">
                 <label for="menu" class="block text-gray-700 mb-2">Menu yang Dipesan</label>
-                <selsect id="menu" name="menu" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-theme" required>
-                    <<<<<<< HEAD
-                        <option value="" disabled selected>Pilih menu</option>
-                        <option value="Rendang">Rendang - Rp 25.000</option>
-                        <option value="Sate Padang">Sate Padang - Rp 20.000</option>
-                        <option value="Gulai Ayam">Gulai Ayam - Rp 18.000</option>
-                        =======
-                        <option value="" disabled selected>Pilih menu</option>
-                        <option value="Rendang">Rendang - Rp 18.000</option>
-                        <option value="Sate Padang">Sate Padang - Rp 18.000</option>
-                        <option value="Ayam Pop">Ayam Pop - Rp 18.000</option>
-                        <option value="Telur Barendo">Telur Barendo - Rp 13.000</option>
-                        <option value="Dendeng Balado">Dendeng Balado - Rp 20.000</option>
-                        <option value="Gulai Tunjang">Gulai Tunjang - Rp 20.000</option>
-                        <option value="Sayur Nangka">Sayur Nangka - Rp 10.000</option>
-                        <option value="Soto Padang">Soto Padang - Rp 20.000</option>
-                        >>>>>>> 1714a84d6450bc08354a8b99c4d59b2d8358ec4d
+                <select id="menu" name="menu" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-theme" required>
+                    <option value="" disabled selected>Pilih menu</option>
+                    <option value="Rendang">Rendang - Rp 18.000</option>
+                    <option value="Sate Padang">Sate Padang - Rp 18.000</option>
+                    <option value="Ayam Pop">Ayam Pop - Rp 18.000</option>
+                    <option value="Telur Barendo">Telur Barendo - Rp 13.000</option>
+                    <option value="Dendeng Balado">Dendeng Balado - Rp 20.000</option>
+                    <option value="Gulai Tunjang">Gulai Tunjang - Rp 20.000</option>
+                    <option value="Sayur Nangka">Sayur Nangka - Rp 10.000</option>
+                    <option value="Soto Padang">Soto Padang - Rp 20.000</option>
                 </select>
             </div>
         </form>
