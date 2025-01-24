@@ -123,6 +123,7 @@
             <div class="bg-white p-4 rounded-lg shadow">
                 <img src="<?= base_url('uploads/' . $item['image']) ?>" alt="<?= esc($item['name']) ?>" class="w-full h-48 object-cover rounded-lg">
                 <h3 class="text-xl font-bold mt-4"><?= esc($item['name']) ?></h3>
+                <h3 class="text-xl font-bold mt-4"><?= esc($item['porsi']) ?></h3>
                 <p class="text-gray-700">Rp <?= number_format($item['price'], 0, ',', '.') ?></p>
             </div>
         <?php endforeach; ?>

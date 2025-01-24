@@ -20,6 +20,8 @@
 
             <label class="block text-gray-700">Deskripsi:</label>
             <input type="text" name="keterangan" placeholder="Masukkan deskripsi menu" class="w-full p-2 border border-gray-300 rounded mt-1 mb-4" required>
+            <label class="block text-gray-700">Porsi :</label>
+            <input type="text" name="porsi" placeholder="Masukkan jumlah porsi" class="w-full p-2 border border-gray-300 rounded mt-1 mb-4" required>
 
             <label class="block text-gray-700">Gambar:</label>
             <input type="file" name="image" class="w-full p-2 border border-gray-300 rounded mt-1 mb-4" required>

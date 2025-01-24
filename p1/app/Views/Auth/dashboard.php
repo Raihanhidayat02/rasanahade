@@ -136,6 +136,30 @@
         </div>
     </section>
 
+     <!-- Produk -->
+     <section id="Produk" class="container mx-auto py-12">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold text-center mb-6 text-red-theme">Produk Kami</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-4 rounded-lg shadow">
+                    <img src="<?= base_url('assets/promosi.png') ?>" alt="Rendang" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-xl font-bold mt-4 text-red-theme">Rendang</h3>
+                    <p class="text-gray-700">Rendang adalah masakan daging dengan citarasa pedas yang menggunakan campuran dari berbagai bumbu dan rempah.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg shadow">
+                    <img src="<?= base_url('assets/produk2.jpg') ?>" alt="Sate Padang" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-xl font-bold mt-4 text-red-theme">Sate Padang</h3>
+                    <p class="text-gray-700">Sate Padang adalah sate yang disajikan dengan bumbu kuah kacang khas Padang yang nikmat.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg shadow">
+                    <img src="<?= base_url('assets/produk3.jpg') ?>" alt="Ayam Pop" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-xl font-bold mt-4 text-red-theme">Ayam Pop</h3>
+                    <p class="text-gray-700">Ayam Pop adalah ayam goreng yang disajikan dengan saus sambal khas Padang yang lezat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Testimoni -->
     <section id="testimoni" class="container mx-auto py-12">
         <div class="bg-white p-8 rounded-lg shadow-lg">

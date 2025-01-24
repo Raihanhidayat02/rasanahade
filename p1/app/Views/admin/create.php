@@ -24,6 +24,7 @@
                     <?php endif; ?>
                     <p class="text-gray-700 mb-2"><?= $item['name'] ?> - Rp <?= $item['price'] ?></p>
                     <p class="text-gray-700 mb-2">Deskripsi: <?= $item['keterangan'] ?></p>
+                    <p class="text-gray-700 mb-2"><?= $item['name'] ?> - <?= $item['porsi'] ?></p>
                     <a href="<?= base_url('admin/edit/' . $item['id']) ?>" class="bg-blue-500 text-white p-2 rounded mr-2">Edit</a>
                     <a href="<?= base_url('admin/delete/' . $item['id']) ?>" class="bg-red-500 text-white p-2 rounded">Hapus</a>
                 </div>

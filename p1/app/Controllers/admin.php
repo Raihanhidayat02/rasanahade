@@ -80,6 +80,7 @@ class Admin extends BaseController
             'name' => $this->request->getVar('name'),
             'price' => $this->request->getVar('price'),
             'keterangan' => $this->request->getVar('keterangan'),
+            'porsi' => $this->request->getVar('porsi'),
             'image' => $namaGambarBaru,
         ]);
 
